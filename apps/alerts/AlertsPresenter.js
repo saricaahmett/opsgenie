@@ -28,7 +28,6 @@ var AlertsPresenter = function (_model,_view) {
                 _this.calendarData.push(event);
             }
         }
-        debugger
 
         // arrange data for view.js
         _this.view.listAlerts(alertsData.alerts);
