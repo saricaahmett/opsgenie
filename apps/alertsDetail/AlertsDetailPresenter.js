@@ -12,7 +12,6 @@ var AlertsDetailPresenter = function (_model,_view,_rowObject) {
 
 
     _this.initialize = function () {
-        $('ul.tabs').tabs();
         _this.model.getNoteData(_this.setNoteData);
     }
 

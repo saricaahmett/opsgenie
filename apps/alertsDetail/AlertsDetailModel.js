@@ -19,7 +19,6 @@ var AlertsDetailModel = function () {
                 _successFunction(json.notes);
             },
             error: function (e) {
-                framework.handleErrorMessages(e);
             },
             complete: function (e, xhr) {
             }
