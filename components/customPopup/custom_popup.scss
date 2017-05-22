@@ -1,0 +1,72 @@
+.customPopupGlass{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99999;
+  background-color: rgba(0,0,0,0.4);
+  .customPopupContainer{
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    label.teal{
+      background-color: transparent !important;
+      color: teal;
+    }
+    .customPopupHeaders{
+      margin-top: 5px;
+      padding-bottom: 10px;
+      color: teal;
+      font-size: 15px;
+      font-weight: 400;
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px auto;
+    max-width: 1280px;
+    right: 0;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 15px 30px;
+    border-radius: 0 0 5px 5px !important;
+    .customPopupTitle{
+
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: teal;
+      font-weight: 300;
+    }
+
+    .closeCustomPopup{
+      cursor: pointer;
+      font-size: 30px;
+      transition: 0.5s all ease-in;
+      margin-top: -10px;
+    }
+    .closeCustomPopup:hover{
+      color:#e7505a;
+    }
+  }
+}
+
+.customPopupLoadArea{
+  padding-top:5px;
+}
+
+.custom-popup-footer{
+  text-align: right;
+}
+
+#close-popup-button{
+  position: absolute;
+  right: 50px;
+  top: 5px;
+  color: black;
+  z-index: 9999;
+  cursor: pointer;
+}

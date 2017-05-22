@@ -1,0 +1,43 @@
+body{
+  background-color: #efefef;
+}
+.subView{
+  opacity:0;
+  position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:200px;
+  @include transition(400ms);
+  @include translateY(200px);
+}
+#home-page{
+  background-color:#ddd;
+}
+#page3{
+  background-color:#ddd;
+}
+#page2{
+  background-color:#ddd;
+}
+#page4{
+  background-color:#ddd;
+}
+.revealSubView{
+  opacity:1;
+  @include translateY(0px);
+}
+
+#navigation-container {
+  float: left;
+  margin-top:10px;
+}
+
+#back, #forward{
+  cursor: pointer;
+  font-size:30px;
+}
+#calendar-button{
+  float: right;
+  margin-top:5px;
+}

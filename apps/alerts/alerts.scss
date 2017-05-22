@@ -1,0 +1,92 @@
+.alert-row{
+  min-height:120px !important;
+  border-bottom:1px solid #efefef;
+  background-color:white;
+  cursor: pointer;
+  @include transition(200ms);
+}
+.alert-row:hover{
+  background-color:#fbfbfb;
+}
+
+#alerts-container{
+  margin-top:50px;
+}
+
+.row-blocks{
+  min-height:120px !important;
+}
+
+.is-seen{
+  width:5px;
+  height:100%;
+  position: absolute;
+  left:0px;
+  top:0px;
+}
+
+.count, .order{
+  position: relative;
+  border-radius: 3px;
+  display: block;
+  margin-top: 5px;
+  width: 50px;
+  background-color: #efefef;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.content-side{
+  padding-top:15px !important;
+}
+
+.show{
+  display: block !important;
+}
+.no-item{
+  display: none;
+}
+
+.chip{
+  margin-top:5px;
+}
+
+.fixed-action-btn{
+  position: absolute;
+  right:10px;
+  bottom:5px;
+  padding:0px;
+}
+
+.fixed-action-btn.horizontal ul li{
+  margin:0px 5px 0 0;;
+}
+
+.fixed-action-btn.horizontal ul{
+  right:50px;
+}
+
+.owner, .created-at{
+  font-size: 12px;
+  float: right;
+  width: 250px;
+  text-align: right;
+  height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color:#7f7f7f;
+}
+
+.status{
+  width: 70px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top:7px;
+}

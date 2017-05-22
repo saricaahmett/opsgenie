@@ -1,0 +1,22 @@
+@mixin translateY($value) {
+  -webkit-transform: translateY($value);
+  -moz-transform: translateY($value);
+  -ms-transform: translateY($value);
+  -o-transform: translateY($value);
+  transform: translateY($value);
+}
+@mixin translateX($value){
+  -webkit-transform: translateX($value);
+  -moz-transform: translateX($value);
+  -ms-transform: translateX($value);
+  -o-transform: translateX($value);
+  transform: translateX($value);
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value all ease;
+  -moz-transition: $value all ease;
+  -ms-transition: $value all ease;
+  -o-transition: $value all ease;
+  transition: $value all ease;
+}

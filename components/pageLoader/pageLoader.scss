@@ -1,0 +1,19 @@
+.subView{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: none;
+}
+
+.removeSubView{
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.revealSubView{
+  display: block;
+}
