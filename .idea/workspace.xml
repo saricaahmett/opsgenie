@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c5071ac-8b1a-4a90-848d-266791d51bb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/alerts/AlertsPresenter.js" afterPath="$PROJECT_DIR$/apps/alerts/AlertsPresenter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,18 +64,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dependencies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/dependencies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-              <folding>
-                <element signature="e#65#1885#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AlertsDetailView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/alertsDetail/AlertsDetailView.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertsPresenter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlertsPresenter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/alerts/AlertsPresenter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="419">
               <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -172,7 +170,6 @@
         <option value="$PROJECT_DIR$/apps/alertsDetail/alert-detail.scss" />
         <option value="$PROJECT_DIR$/css/general.scss" />
         <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apps/calendar/calendar.html" />
         <option value="$PROJECT_DIR$/alerts.json" />
         <option value="$PROJECT_DIR$/components/pageLoader/PageLoader.js" />
@@ -187,6 +184,7 @@
         <option value="$PROJECT_DIR$/apps/alertsDetail/AlertsDetailModel.js" />
         <option value="$PROJECT_DIR$/apps/alertsDetail/AlertsDetailPresenter.js" />
         <option value="$PROJECT_DIR$/apps/alerts/AlertsPresenter.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -492,7 +490,7 @@
       <option name="presentableId" value="Default" />
       <updated>1495382008124</updated>
       <workItem from="1495382009826" duration="24623000" />
-      <workItem from="1495430658572" duration="921000" />
+      <workItem from="1495430658572" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="cross origin error fixed">
       <created>1495430725965</created>
@@ -508,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495431722114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="debugger remove">
+      <created>1495431829935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495431829935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25544000" />
+    <option name="totallyTimeSpent" value="25838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -545,7 +550,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cross origin error fixed" />
     <MESSAGE value="tabs error" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabs error" />
+    <MESSAGE value="debugger remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugger remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/pageLoader/PageLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -904,6 +903,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding />
         </state>
       </provider>
