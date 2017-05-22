@@ -17,9 +17,6 @@ var AlertsModel = function () {
             cache:true,
             dataType:"json",
             crossDomain:true,
-            xhrFields: {
-                withCredentials: true
-            },
             success:function (json) {
                 _successFunction(json);
             },
